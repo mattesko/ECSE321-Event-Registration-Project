@@ -1,0 +1,22 @@
+<manager id="1">
+  <events id="2">
+    <event id="3">
+      <name>Soccer Game</name>
+      <eventDate id="4">2017-03-16</eventDate>
+      <startTime id="5">09:00:00</startTime>
+      <endTime id="6">10:30:00</endTime>
+    </event>
+  </events>
+  <registrations id="7">
+    <registration id="8">
+      <id>1</id>
+      <participant id="9">
+        <name>Oscar</name>
+      </participant>
+      <event reference="3"/>
+    </registration>
+  </registrations>
+  <participants id="10">
+    <participant reference="9"/>
+  </participants>
+</manager>

@@ -1,0 +1,44 @@
+<manager id="1">
+  <events id="2">
+    <event id="3">
+      <name>Super Party</name>
+      <eventDate id="4">2017-01-22</eventDate>
+      <startTime id="5">09:40:20</startTime>
+      <endTime id="6">09:40:20</endTime>
+    </event>
+    <event id="7">
+      <name>Matthew&apos;s Birthday</name>
+      <eventDate id="8">2017-01-29</eventDate>
+      <startTime id="9">19:42:00</startTime>
+      <endTime id="10">23:42:00</endTime>
+    </event>
+  </events>
+  <registrations id="11">
+    <registration id="12">
+      <id>1</id>
+      <participant id="13">
+        <name>Matthew</name>
+      </participant>
+      <event reference="7"/>
+    </registration>
+    <registration id="14">
+      <id>2</id>
+      <participant id="15">
+        <name>John</name>
+      </participant>
+      <event reference="7"/>
+    </registration>
+    <registration id="16">
+      <id>1</id>
+      <participant id="17">
+        <name>Maja</name>
+      </participant>
+      <event reference="7"/>
+    </registration>
+  </registrations>
+  <participants id="18">
+    <participant reference="15"/>
+    <participant reference="13"/>
+    <participant reference="17"/>
+  </participants>
+</manager>
